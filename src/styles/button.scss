@@ -1,0 +1,158 @@
+@use "sass:map";
+@import "variables";
+
+.timeline-navegation-button {
+  background-color: transparent;
+  border: unset;
+  color: map.get($twitter-texts, "twitter-grey-text");
+  font-family: "Roboto";
+  font-size: 1.188rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.375rem;
+}
+
+.timeline-navegation-button:hover {
+  text-decoration: underline;
+}
+
+.timeline-navegation-selected-button {
+  background-color: transparent;
+  border: unset;
+  color: map.get($twitter-texts, "twitter-blue-text");
+  font-family: "Roboto";
+  font-size: 1.188rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.375rem;
+}
+
+.timeline-navegation-selected-button:hover {
+  text-decoration: underline;
+}
+
+.timeline-trends-show-more-button {
+  background-color: transparent;
+  border: unset;
+  color: map.get($twitter-texts, "twitter-blue-text");
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 31.25rem;
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
+
+.timeline-trends-show-more-button:hover {
+  text-decoration: underline;
+}
+
+.join-free-forgot-password-button {
+  //label and buttons
+  background-color: map.get($twitter-colors, "twitter-white-color");
+  border-radius: unset;
+  border: unset;
+  color: map.get($twitter-texts, "twitter-blue-text");
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  height: unset;
+  line-height: 1.188rem;
+  width: unset;
+}
+.join-free-forgot-password-button:hover {
+  //label and buttons
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.button {
+  //login
+  position: absolute;
+  background: map.get($twitter-colors, "twitter-black-color");
+  border: 0.063rem solid map.get($twitter-colors, "twitter-blue-color");
+  box-sizing: border-box;
+  border-radius: 0.313rem;
+  :hover {
+    background: map.get($twitter-colors, "twitter-white-color");
+    border: 0.063rem solid map.get($twitter-colors, "twitter-grey-color");
+    box-sizing: border-box;
+    border-radius: 0.313rem;
+  }
+}
+
+.login-sign-button {
+  //login-now & sign-up buttons
+  background-color: map.get($twitter-colors, "twitter-white-color");
+  border-radius: 0.313rem;
+  border: 0.063rem solid map.get($twitter-colors, "twitter-blue-color");
+  box-sizing: border-box;
+  color: map.get($twitter-texts, "twitter-blue-text");
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 43.75rem;
+  line-height: 0.073rem;
+  min-height: 3.125rem;
+  min-width: 21.688rem;
+}
+.login-sign-button:hover {
+  //login buttons
+  color: map.get($twitter-texts, "twitter-grey-text");
+  background-color: map.get($twitter-colors, "twitter-white-color");
+  border: 0.063rem solid map.get($twitter-colors, "twitter-white-grey");
+  cursor: pointer;
+}
+
+.tweet-now-button {
+  padding: 0px 0px;
+
+  position: absolute;
+  width: 180px;
+  height: 50px;
+  left: 80px;
+  top: 545px;
+  background: map.get($twitter-colors, "twitter-blue-color");
+  box-shadow: 0px 0px 0px 0px transparent;
+  border-radius: 6.25rem;
+  border: 0px;
+}
+.tweet-now-button:hover {
+  padding: 0%;
+
+  position: absolute;
+  width: 11.25rem;
+  height: 3.125rem;
+
+  background: map.get($twitter-colors, "twitter-light-blue-color");
+  box-shadow: transparent;
+  border-radius: 6.25rem;
+  border: 0%;
+}
+
+.login-now-button {
+  //login-now & sign-up buttons
+
+  background-color: map.get($twitter-colors, "twitter-blue-color");
+  border-radius: 0.313rem;
+  border: 0.063rem solid map.get($twitter-colors, "twitter-blue-color");
+  box-sizing: border-box;
+  color: map.get($twitter-texts, "twitter-white-text");
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 43.75rem;
+  height: 3.125rem;
+  line-height: 1.172rem;
+  width: 21.688rem;
+}
+.login-now-button:hover {
+  //login buttons
+  background-color: map.get($twitter-colors, "twitter-light-blue-color");
+  border: 0.063rem map.get($twitter-colors, "twitter-light-blue-color");
+  cursor: pointer;
+}
+
+.button-new {
+  color: red;
+}

@@ -1,0 +1,196 @@
+@use "sass:map";
+@import "variables";
+
+.timeline-content-title-label {
+  color: map.get($twitter-texts, "twitter-black-text");
+  font-family: "Roboto";
+  font-size: 1.188rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.375rem;
+  position: sticky;
+  z-index: 100;
+}
+
+.timeline-content-user-label {
+  color: map.get($twitter-texts, "twitter-black-text");
+  font-family: "Roboto";
+  font-size: 0.938rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.125rem;
+}
+
+.timeline-content-at-user-label {
+  color: map.get($twitter-texts, "twitter-grey-text");
+  font-family: "Roboto";
+  font-size: 0.938rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.125rem;
+}
+
+.timeline-content-tweet-body-label {
+  color: map.get($twitter-texts, "twitter-grey-text");
+  font-family: "Roboto";
+  font-size: 0.938rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.375rem;
+}
+
+.trending-title-label {
+  color: map.get($twitter-texts, "twitter-black-text");
+  font-family: "Roboto";
+  font-size: 1.188rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.375rem;
+}
+
+.trending-number-subtitle-label {
+  //height: 14px;
+  //left: 10px;
+  //margin: 0px 0px;
+  //text-align: start;
+  //top: 0px;
+  //width: 50px;
+  color: map.get($twitter-texts, "twitter-grey-text");
+  font-family: "Roboto";
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 0.875rem;
+}
+
+.trending-hashtag-label {
+  //height: 18px;
+  //left: 1rem;
+  //top: 27px;
+  //width: 105px;
+  color: map.get($twitter-texts, "twitter-black-text");
+  font-family: "Roboto";
+  font-size: 0.938rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.125rem;
+}
+
+.trending-k-tweets-label {
+  //height: 18px;
+  //left: 1rem;
+  //top: 27px;
+  //width: 105px;
+  color: map.get($twitter-texts, "twitter-grey-text");
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
+
+.no-account-label {
+  color: map.get($twitter-texts, "twitter-grey-text-700");
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.188rem;
+}
+
+.welcome-label {
+  color: map.get($twitter-texts, "twitter-black-text");
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.875rem;
+  line-height: 35px;
+}
+
+.my-twitter-label {
+  color: map.get($twitter-texts, "twitter-grey-text");
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  height: 1.188rem;
+  line-height: 1.188rem;
+  width: 75px;
+}
+
+.login-label {
+  color: map.get($twitter-texts, "twitter-black-text");
+  width: 292px;
+  height: 35px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.875rem;
+  line-height: 35px;
+}
+
+.create-account-label {
+  color: map.get($twitter-texts, "twitter-black-text");
+  width: 261px;
+  height: 35px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.875rem;
+  line-height: 35px;
+}
+
+.user-mail-pasword-label {
+  left: 0%;
+  right: 61.43%;
+  top: 0%;
+  bottom: 91.16%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.188rem;
+}
+
+.timeline-navegation-label {
+  color: map.get($twitter-texts, "twitter-grey-text");
+  font-family: "Roboto";
+  font-size: 1.188rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.375rem;
+}
+
+.timeline-navegation-selected-label {
+  color: map.get($twitter-texts, "twitter-blue-text");
+  font-family: "Roboto";
+  font-size: 1.188rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.375rem;
+}
+
+.home-navegation-label-selected {
+  color: map.get($twitter-texts, "twitter-blue-text");
+  font-family: "Roboto";
+  font-size: 1.188rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.trending-hashtag-label {
+  width: 105px;
+  height: 18px;
+  left: 1rem;
+  top: 27px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: map.get($twitter-texts, "twitter-grey-text-1");
+}

@@ -1,0 +1,255 @@
+@use "sass:map";
+@import "variables";
+
+body,
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+//home beginning
+
+.height-4 {
+  max-height: 0.2rem;
+}
+
+.height-1 {
+  min-height: 2.5rem;
+}
+
+.login-form {
+  align-items: center;
+
+  position: absolute;
+  vertical-align: middle;
+  text-align: center;
+  min-width: 100%;
+  margin: -8px;
+  height: 100%;
+}
+
+.header-full {
+  align-items: center;
+  display: flex;
+  position: absolute;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  margin: -8px;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    map.get($twitter-colors, "twitter-blue-color") 50%,
+    map.get($twitter-colors, "twitter-white-color") 50%
+  );
+}
+.gen-flex-blue {
+  float: right;
+  min-width: 50%;
+}
+
+.gen-flex-white {
+  float: right;
+  min-width: 50%;
+  min-height: max-content;
+}
+//home end
+
+.inline {
+  display: inline-flex;
+  vertical-align: middle;
+  justify-content: space-around;
+}
+
+.inline-body {
+  align-items: center;
+  font-weight: 56.25rem;
+  font-size: 1.375rem;
+  height: 1.875rem;
+  padding: 1.25rem;
+}
+
+.inline-block {
+  display: flex;
+
+  align-items: center;
+  font-weight: 56.25rem;
+  font-size: 1.375rem;
+  height: 1.875rem;
+  padding: 1.25rem;
+}
+
+.inline-block-twitter {
+  align-items: center;
+  font-weight: 56.25rem;
+  font-size: 1.27rem;
+  height: 2.5rem;
+  padding: 1.25rem;
+}
+
+.inline-block:hover {
+  background-color: rgb(224, 255, 254);
+  border-radius: 1.875rem;
+}
+
+.bloque {
+  display: block;
+}
+
+.center {
+  text-align: center;
+  display: block;
+}
+
+.inline-real {
+  display: inline-flex;
+}
+
+.inline-left-13 {
+  margin-right: 13%;
+}
+
+.inline-left-17 {
+  margin-right: 17%;
+}
+
+.inline-left-22 {
+  margin-right: 22%;
+}
+
+.icon-img {
+  width: 1.503rem;
+  height: 1.371rem;
+  vertical-align: "middle";
+  margin: auto;
+  margin-left: 0.625rem;
+  margin-right: 0.313rem;
+}
+
+.server-img {
+  width: 15.003rem;
+  height: 13.184rem;
+  vertical-align: "middle";
+  margin: auto;
+  margin-left: 0.625rem;
+  margin-right: 0.313rem;
+}
+
+.selected-icon-img {
+  width: 1.503rem;
+  height: 1.371rem;
+  vertical-align: "middle";
+  margin: auto;
+  margin-left: 0.625rem;
+  margin-right: 0.313rem;
+}
+
+.profile-icon-img {
+  width: 1.503rem;
+  height: 1.371rem;
+  vertical-align: "middle";
+  margin-top: 2rem;
+  margin-left: 0.625rem;
+  margin-right: 0.313rem;
+}
+
+.left-home-inline {
+  margin: auto;
+}
+.right-home-inline {
+  margin: auto;
+}
+
+.search-bar {
+  text-align: center;
+  display: inline-flex;
+  background-color: map.get($twitter-colors, "twitter-light-grey-color");
+  height: 3rem;
+  left: 0rem;
+  right: 0rem;
+  width: 17.5rem;
+  top: calc(50% - 3rem / 2);
+  border-radius: 6.25rem;
+  border: transparent;
+}
+
+.trend-list-body {
+  background-color: map.get($twitter-colors, "twitter-light-grey-color");
+  border: transparent;
+  border-bottom: 0.063rem map.get($twitter-colors, "twitter-light-grey-color");
+
+  //display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  text-align: start;
+
+  width: 17.5rem;
+  height: auto;
+  left: 0rem;
+  top: 4rem;
+
+  border-radius: 0.75rem;
+  flex-grow: 0;
+  margin: 1rem 0rem;
+}
+
+.trend-body {
+  padding: 0.1rem;
+}
+
+.grey-border-div {
+  background-color: map.get($twitter-colors, "twitter-grey-color");
+  height: 0.063rem;
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+}
+
+.trend-list-title {
+  padding: 0.625rem 0.625rem 0.625rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-navegation {
+  text-align: start;
+  display: block;
+
+  min-width: 17.813rem;
+  margin: 0rem 0rem 0rem 1.25rem;
+}
+
+.timeline-body {
+  max-width: 43.375rem;
+  overflow-y: scroll;
+  height: auto;
+  border-left: 0.063rem solid map.get($twitter-colors, "twitter-grey-color");
+  border-right: 0.063rem solid map.get($twitter-colors, "twitter-grey-color");
+  padding: 1.25rem;
+}
+
+.timeline-body::-webkit-scrollbar {
+  display: none;
+}
+
+.timeline-search-trend {
+  text-align: inherit;
+  padding-left: 1.5rem;
+  padding-right: 5.188rem;
+}
+
+.timeline-tweet {
+  text-align: unset;
+}
+
+.tweet-image {
+  left: 0rem;
+  right: 1.875rem;
+  top: 0rem;
+  bottom: 0rem;
+
+  border-radius: 0.75rem;
+}

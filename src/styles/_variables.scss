@@ -1,0 +1,26 @@
+$twitter-texts: (
+  "twitter-blue-text": rgba(29, 161, 242, 1),
+  "twitter-white-text": rgba(255, 255, 255, 1),
+  "twitter-grey-text": rgba(51, 51, 51, 1),
+  "twitter-black-text": rgba(26, 32, 44, 1),
+);
+
+$twitter-colors: (
+  "twitter-blue-color": #50b7f5,
+  "twitter-light-blue-color": rgba(29, 161, 242, 0.5),
+  "twitter-grey-color": rgba(176, 176, 176, 1),
+  "twitter-light-grey-color": #e6ecf0,
+  "twitter-black-color-900": rgba(26, 32, 44, 1),
+  "twitter-white-color": rgba(255, 255, 255, 1),
+);
+
+$twitter-fillers: (
+  "twitter-blue-filler": invert(47%) sepia(84%) saturate(441%)
+    hue-rotate(159deg) brightness(96%) contrast(112%),
+  "twitter-light-blue-filler": invert(47%) sepia(84%) saturate(441%)
+    hue-rotate(159deg) brightness(96%) contrast(112%) opacity(50%),
+  "twitter-grey-filler": invert(7%) sepia(1%) saturate(1283%) hue-rotate(314deg)
+    brightness(101%) contrast(71%),
+  "twitter-white-filler": invert(100%) sepia(100%) saturate(1%)
+    hue-rotate(203deg) brightness(105%) contrast(101%),
+);

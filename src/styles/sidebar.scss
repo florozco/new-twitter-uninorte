@@ -1,0 +1,33 @@
+@use "sass:map";
+@import "variables";
+
+.sidebar {
+  border-right: 1px solid map.get($twitter-colors, "twitter-light-grey-color");
+  flex: 0.3;
+  /* min-width: 250px; */
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sidebar_tweeterIcon {
+  color: map.get($twitter-colors, "twitter-blue-color");
+  font-size: 30px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar__tweet {
+  background-color: map.get($twitter-colors, "twitter-blue-color") !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 600 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+  margin-top: 20px !important;
+
+  span {
+    font-size: 15px;
+  }
+}

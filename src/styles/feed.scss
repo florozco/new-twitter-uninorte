@@ -1,0 +1,28 @@
+@use "sass:map";
+@import "variables";
+
+.feed {
+  flex: 0.4;
+  border-right: 1px solid map.get($twitter-colors, "twitter-light-grey-color");
+  min-width: fit-content;
+  overflow-y: scroll;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.feed__header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border: 1px solid map.get($twitter-colors, "twitter-light-grey-color");
+  padding: 0px 20px;
+
+  h2 {
+    font-size: 20px;
+    font-weight: 800;
+  }
+}

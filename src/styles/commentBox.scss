@@ -1,0 +1,19 @@
+@use "sass:map";
+@import "variables";
+
+.commentBox {
+  padding-bottom: 10px;
+  form {
+    display: flex;
+  }
+}
+
+.commentBox__tweet {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 10px;
+}
+
+.commentBox__input {
+  margin: 0px 20px;
+}

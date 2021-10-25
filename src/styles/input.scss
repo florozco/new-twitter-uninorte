@@ -1,0 +1,60 @@
+@use "sass:map";
+@import "variables";
+
+.user-mail-input {
+  width: 21.875rem;
+  height: 3.125rem;
+  padding-left: 1.25rem;
+  color: map.get($twitter-texts, "twitter-black-text");
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  border: 0.063rem solid map.get($twitter-colors, "twitter-grey-color");
+  box-sizing: border-box;
+  border-radius: 0.313rem;
+}
+
+.user-mail-input:focus {
+  outline-style: none;
+  box-shadow: none;
+  border-color: map.get($twitter-colors, "twitter-black-color");
+}
+
+.password-input {
+  width: 21.875rem;
+  height: 3.125rem;
+  padding-left: 1.25rem;
+  color: map.get($twitter-texts, "twitter-black-text");
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  border: 0.063rem solid map.get($twitter-colors, "twitter-grey-color");
+  box-sizing: border-box;
+  border-radius: 0.313rem;
+}
+
+.password-input:focus {
+  outline-style: none;
+  box-shadow: none;
+  border-color: map.get($twitter-colors, "twitter-black-color");
+}
+
+.search-input {
+  height: 3rem;
+  left: 0px;
+  right: 0px;
+  top: calc(50% - 3rem / 2);
+  border-radius: 6.25rem;
+  background-color: transparent;
+  border: transparent;
+}
+
+.search-input:focus {
+  outline-style: none;
+  box-shadow: none;
+  border: transparent;
+}

@@ -1,0 +1,93 @@
+@use "sass:map";
+@import "variables";
+
+.tweet {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid map.get($twitter-colors, "twitter-light-grey-color");
+  padding-bottom: 10px;
+}
+
+.tweet__body {
+  flex: 1;
+  padding: 10px;
+}
+
+.tweet__headerText {
+  display: flex;
+  align-items: center;
+  h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+}
+
+.tweet__dropdownContainer {
+  position: "relative";
+}
+
+.tweet__dropdown {
+  margin-left: auto;
+
+  button:hover {
+    background-color: map.get($twitter-colors, "twitter-blue-color") !important;
+    border-radius: 16px !important;
+    color: white;
+  }
+}
+
+.tweet__headerDescription {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.tweet__footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.tweet__badge {
+  font-size: 14px !important;
+  color: map.get($twitter-colors, "twitter-blue-color");
+}
+
+.tweet__headerSpecial {
+  font-weight: 600;
+  font-size: 12px;
+  color: gray;
+}
+
+.tweet__avatar {
+  padding: 20px;
+}
+
+.tweet__icon {
+  font-size: 15px !important;
+}
+
+.tweet__icon--red {
+  font-size: 15px !important;
+  color: red !important;
+}
+
+.tweet__iconContainer {
+  &:hover {
+    background-color: map.get($twitter-colors, "twitter-blue-color") !important;
+
+    .tweet__icon {
+      color: white;
+    }
+  }
+}
+
+.comment_iconContainer {
+  margin-left: auto;
+  &:hover {
+    background-color: rgb(244, 33, 46) !important;
+
+    .tweet__icon {
+      color: white;
+    }
+  }
+}

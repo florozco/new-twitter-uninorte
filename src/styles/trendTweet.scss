@@ -1,0 +1,38 @@
+@use "sass:map";
+@import "variables";
+
+.trendTweet {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid map.get($twitter-colors, "twitter-light-grey-color");
+  padding-bottom: 10px;
+}
+
+.trendTweet__body {
+  flex: 1;
+  padding: 10px;
+}
+
+.trendTweet__headerText {
+  h3 {
+    font-size: 13px;
+    font-weight: 400;
+    color: gray;
+    margin: 5px 0;
+  }
+}
+
+.trendTweet_tweetQTY {
+  p {
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+    margin: 5px 0;
+  }
+}
+
+.trendTweet__hashtag {
+  h4 {
+    margin: 0;
+  }
+}
